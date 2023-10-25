@@ -1,0 +1,98 @@
+.px-6 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+footer {
+  background: #202020;
+  color: #fff;
+}
+.image {
+  background-image: url("./ManTryingOnShoesAtStore_GettyImages.jpg");
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  background-color: aqua;
+}
+@media screen and (max-width: 650px) {
+  .image {
+    background-image: url("./ManTryingOnShoesAtStore_GettyImages.jpg");
+    height: 500px;
+    width: 50px;
+    object-fit: cover;
+    background-color: aqua;
+  }
+  .icon-shop {
+    display: none;
+  }
+  .position-text-image {
+    display: none;
+  }
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 968px) {
+}
+.position-text-image {
+  position: absolute;
+  left: 17%;
+  bottom: 30%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 968px) {
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .ml-5 {
+    margin-left: 450px;
+  }
+  .px-150 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .icon-shop {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 18px;
+  }
+  .pay {
+    margin-right: 140px;
+  }
+  .under-footer-actor {
+    margin-left: 113px;
+    padding-bottom: 27px;
+  }
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.btn-subcribe {
+  background: burlywood;
+  padding: 7px;
+  border-radius: 5px;
+}
+.icon-footer {
+  font-size: 28px;
+  cursor: pointer;
+}
+.divided-footer {
+  margin: 27px;
+  border: 1px solid gray;
+  width: 94%;
+  text-align: center;
+  align-items: center;
+}
+.img-footer-pay {
+  width: 30px;
+  height: 20px;
+}
